@@ -3,6 +3,7 @@ describe("About Arrays", function() {
   //We shall contemplate truth by testing reality, via spec expectations.
   it("should create arrays", function() {
     var emptyArray = [];
+    // methods expect and toBe are chained together
     expect(typeof(emptyArray)).toBe("object"); //A mistake? - http://javascript.crockford.com/remedial.html
     expect(emptyArray.length).toBe(0);
 
